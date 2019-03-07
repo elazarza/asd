@@ -1,0 +1,37 @@
+body {
+    width: 90%;
+    margin: auto;
+}
+#maincontent {
+   
+    display: flex;
+}
+#person {
+    flex:1;
+    margin-right: 5px;
+}
+#view {
+    height: 80vh;
+    flex: 2;
+    margin-left: 5px;
+    border: 1px solid black;
+}
+#controls {
+    display: flex;
+    flex-direction: column;
+}
+input {
+    outline: none;
+    margin-bottom:3px;
+    transition:.2s ease-in;
+    border: .3px solid black;    
+
+}
+#actions {
+    margin-top :10px;
+}
+input:focus {
+    border:.3px solid rgb(67, 113, 211);
+    box-shadow: 0 0 2px rgb(80, 151, 243);
+    transition: .2s ease-in;
+}
